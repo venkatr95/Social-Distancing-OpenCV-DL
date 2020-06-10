@@ -23,6 +23,7 @@ else:
     url = 'https://pjreddie.com/media/files/yolov3.weights'
     wget.download(url)
     shutil.move("yolov3.weights", path)
+    print("\n Done with weights \n")
 
 
 # construct the argument parse and parse the arguments
